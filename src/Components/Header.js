@@ -10,11 +10,11 @@ export const Header = (props) => {
         </div>
         <nav>
             <ul className="navmenu">
-                <HeaderMenuItem activePage={props.activePage} menuText="Home"  />
-                <HeaderMenuItem activePage={props.activePage} menuText="Services"  />
-                <HeaderMenuItem activePage={props.activePage} menuText="Products"/>
-                <HeaderMenuItem activePage={props.activePage} menuText="About" />
-                <HeaderMenuItem activePage={props.activePage} menuText="Contact" />
+                <HeaderMenuItem onChangeActivePage={props.onChangeActivePage} activePage={props.activePage} menuText="Home"  />
+                <HeaderMenuItem onChangeActivePage={props.onChangeActivePage} activePage={props.activePage} menuText="Services"  />
+                <HeaderMenuItem onChangeActivePage={props.onChangeActivePage} activePage={props.activePage} menuText="Products"/>
+                <HeaderMenuItem onChangeActivePage={props.onChangeActivePage} activePage={props.activePage} menuText="About" />
+                <HeaderMenuItem onChangeActivePage={props.onChangeActivePage} activePage={props.activePage} menuText="Contact" />
             </ul>
         </nav>
         <ul className="navicons">
