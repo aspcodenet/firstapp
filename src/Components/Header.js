@@ -15,6 +15,7 @@ export const Header = (props) => {
                 <HeaderMenuItem onChangeActivePage={props.onChangeActivePage} activePage={props.activePage} menuText="Products"/>
                 <HeaderMenuItem onChangeActivePage={props.onChangeActivePage} activePage={props.activePage} menuText="About" />
                 <HeaderMenuItem onChangeActivePage={props.onChangeActivePage} activePage={props.activePage} menuText="Contact" />
+                <HeaderMenuItem onChangeActivePage={props.onChangeActivePage} activePage={props.activePage} menuText="ProductAdmin" />
             </ul>
         </nav>
         <ul className="navicons">
